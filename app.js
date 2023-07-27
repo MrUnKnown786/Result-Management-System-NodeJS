@@ -6,7 +6,7 @@ const port = 2000;
 
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://Sanjay:Password@cluster0.4pqcsvx.mongodb.net/?retryWrites=true&w=majority",{
+mongoose.connect("",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
