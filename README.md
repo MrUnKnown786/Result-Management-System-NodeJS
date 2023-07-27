@@ -1,6 +1,6 @@
 # Error Issues
 If mongodb not connected then change cluster with following steps : 
-1. Signin or Register to https://www.mongodb.com/atlas/register
+1. Signin or Register to https://account.mongodb.com/account/login
 2. Create a cluster and connect it to your application
 3. Edit app.js line 9 with your cluster and mention password in it.
 
