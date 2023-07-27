@@ -1,0 +1,17 @@
+<a href="/" class="btn btn-info" style="margin-top:5px;">Back</a>
+<h4>My Result</h4>
+
+<div class="container" style="position: block; text-align: center; padding-top: 100px;">
+    <div class="mb-3">
+        <label class="form-label">Roll No : <%= one.roll %></label>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Name : <%= one.name %></label>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Date of Birth : <%= (one.dob).toISOString().split('T')[0] %></label>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Score : <%= one.score %></label>
+    </div>
+</div>

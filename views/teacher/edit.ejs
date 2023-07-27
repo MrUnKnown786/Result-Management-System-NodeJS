@@ -1,0 +1,23 @@
+<a href="/teacher/viewall" class="btn btn-info" style="margin-top:5px;">Back</a>
+
+<h4>Editing Student Result : <%= user.name %> </h4>
+
+<form method="post" class="add" autocomplete="off">
+    <div class="mb-3">
+        <label for="rollno" class="form-label">Roll No. : </label>
+        <input type="number" name="rollno" required class="form-control" id="rollno" value="<%= user.roll %>">
+    </div>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name : </label>
+        <input type="text" name="name" required class="form-control" id="name" value="<%= user.name %>">
+    </div>
+    <div class="mb-3">
+        <label for="dob" class="form-label">Date of Birth : </label>
+        <input type="date" name="dob" required class="form-control" id="dob" value="<%= (user.dob).toISOString().split('T')[0] %>">
+    </div>
+    <div class="mb-3">
+        <label for="score" class="form-label">Score : </label>
+        <input type="number" name="score" required class="form-control" id="score" value="<%= user.score %>">
+    </div>
+    <a><button type="submit" class="btn btn-success">Update</button></a>
+</form>

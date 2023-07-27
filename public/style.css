@@ -1,0 +1,89 @@
+body{
+    margin-left: 10px;
+}
+.navbar{
+    background-color: #46D7AC;
+    margin-left: -10px;
+}
+.navbar-brand{
+    color:black;
+    font-weight: bold;
+    margin-left: 40%;
+}
+.text{
+    margin-left: 47%;
+    margin-top: 60px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.btn{
+    margin-right: 30px;
+    font-weight: bold;
+}
+.btncolor{
+    background-color: #46A3EE;
+}
+.optiondiv{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.optiondiv button{
+    margin: 0px 100px;
+}
+.loginpage{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teachForm input{
+    width: 300px;
+}
+.tablediv{
+    margin: 10px 200px;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+.table{
+    text-align: center;
+}
+.add{
+    border-width: 2px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    margin: 0 300px;
+}
+.stuTable{
+    border-width: 2px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    margin: 0px 200px;
+    margin-bottom: 50px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.not-found-content{
+    font-size: 60px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: center;
+}
